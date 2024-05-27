@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do Administrador</title>
+    <link rel="stylesheet" href="eveadm.css">
+</head>
+<body>
+
+    <body>
+
+       <div class="barra-container">
+
+            <div class="menu-toggle">
+               <div class="bar"></div>
+               <div class="bar"></div>
+               <div class="bar"></div>
+             </div>
+
+             <nav class="menu">
+               <ul>
+                 <li><a href="paginainicial.html">Página Inicial</a></li>
+                 <li><a href="eventos.html">Eventos</a></li>
+                 <li><a href="funcionarios.html">Funcionários</a></li>
+                 <li><a href="cardapio.html">Cardápio Semanal</a></li>
+                 <li><a href="horario.html">Horário</a></li>
+                 <li><a href="disciplinas.html">Disciplinas</a></li>
+               </ul>
+             </nav>
+
+          <h1>Avisos</h1>
+
+          <div class="lg-container">
+                <img src="iii.jpeg" width="90px"  height="70px">
+             </div>
+
+       </div>
+
+       <div class="cores">
+           <div class="cor1"></div>
+           <div class="cor2"></div>
+           <div class="cor3"></div> 
+       </div>
+
+        <button onclick="int()" class="bnt">Intergil</button>
+
+        <div id="conteudo1" style="display:none">
+                <label for="conteudo1">Conteúdo para os Usuários:</label>
+                <textarea id="conteudo1" rows="4" cols="50"></textarea><br>
+                <button onclick="salvarConteudo()">Salvar</button>
+        </div>
+
+        <button onclick="gic()" class="bnt">Gincana</button>
+
+        <div id="conteudo2" style="display:none">
+                <label for="conteudo">Conteúdo para os Usuários:</label>
+                <textarea id="conteudo2" rows="4" cols="50"></textarea><br>
+                <button onclick="salvarConteudo()">Salvar</button>
+        </div>
+
+
+
+        
+
+    <script src="script.js"></script>
+
+</body>
+</html>

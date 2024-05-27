@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel do Administrador</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+    <div class="barra-container">
+        <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="eveadm.html">Eventos</a></li>
+                <li><a href="funciadm.html">Funcionários</a></li>
+                <li><a href="cardadm.html">Cardápio Semanal</a></li>
+                <li><a href="horadm.html">Horário</a></li>
+                <li><a href="aviadm.html">Avisos</a></li>
+                <li><a href="disciadm.html">Disciplinas</a></li>
+            </ul>
+        </nav>
+        <div class="lg-container">
+            <img src="lgprincipal.jpeg" width="150px" height="80px">
+        </div>
+    </div>
+
+    <div class="cores">
+        <div class="cor1"></div>
+        <div class="cor2"></div>
+        <div class="cor3"></div>
+    </div>
+
+    <h1>Painel do Administrador</h1>
+    <form id="formConteudo" enctype="multipart/form-data">
+        <label for="conteudo">Adicionar Conteúdo:</label><br>
+        <textarea id="conteudo" name="conteudo" rows="4" cols="50"></textarea><br><br>
+
+        <label for="foto">Adicionar Foto:</label>
+        <input type="file" id="foto" name="foto"><br><br>
+
+        <label for="pdf">Adicionar PDF:</label>
+        <input type="file" id="pdf" name="pdf"><br><br>
+
+        <button type="submit">Salvar</button>
+    </form>
+
+    <script src="admin.js"></script>
+</body>
+
+</html>
